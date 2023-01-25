@@ -16,7 +16,7 @@ import {
   createNote as createNoteMutation,
   deleteNote as deleteNoteMutation,
 } from "./graphql/mutations";
-import { API, Storage } from 'aws-amplify';
+import { Storage } from 'aws-amplify';
 import {
   Button,
   Flex,
